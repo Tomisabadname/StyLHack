@@ -702,8 +702,9 @@ end
 mainframe:AddItem(TextEntry)
 
 
+
 local but = vgui.Create("DButton")
-		but:SetText("Play Desiigner-Panda")
+		but:SetText("Play Where is my mind - maxence cover")
 
 		mainframe:AddItem(but)
 		function but.Paint()
@@ -714,7 +715,7 @@ local but = vgui.Create("DButton")
 		function but.DoClick()
 --surface.PlaySound( "music/HL1_song25_REMIX3.mp3" )
 
-sound.PlayURL ( "http://srv106.listentoyoutube.com/download/4pWUaHFjmWlsZrWr2NmUaG+smWZqZmlvl5SaarV80aWomKeM1bzSra2lypc=/Desiigner-%20Panda%20%28OFFICIAL%20SONG%29%20Prod.%20By%3A%20Menace.mp3", "mono", function( station ) -- :O MUSIC STREAMING!!!!!!!!!!!!
+sound.PlayURL ( "http://stylgaming.com/gallery//where%20is%20my%20mind%20-%20maxence%20cover.mp3", "mono", function( station ) -- :O MUSIC STREAMING!!!!!!!!!!!!
 	if ( IsValid( station ) ) then
 
 		station:SetPos( LocalPlayer():GetPos() )
@@ -730,7 +731,7 @@ end )
 	end
 
 	local but = vgui.Create("DButton")
-		but:SetText("Play Drake - Energy")
+		but:SetText("Play blue_swede - hooked on a feeling")
 
 		mainframe:AddItem(but)
 		function but.Paint()
@@ -739,7 +740,7 @@ end )
 		but:SetTextColor(black)
 		
 		function but.DoClick()
-sound.PlayURL ( "http://srv105.listentoyoutube.com/download/4pSbbHBkm2NqZrWr2NmUaG6smWZqZmlvmZWUcLV80aWomKeM1bzSra2lypc=/Drake%20-%20Energy.mp3", "mono", function( station ) -- :O MUSIC STREAMING!!!!!!!!!!!!
+sound.PlayURL ( "http://stylgaming.com/gallery//blue_swede%20-%20hooked%20on%20a%20feeling.mp3", "mono", function( station ) -- :O MUSIC STREAMING!!!!!!!!!!!!
 	if ( IsValid( station ) ) then
 
 		station:SetPos( LocalPlayer():GetPos() )
@@ -755,7 +756,7 @@ end )
 	end
 
 		local but = vgui.Create("DButton")
-		but:SetText("Play Drake - 0 to 100")
+		but:SetText("Play vv brown - shark in the water (louis la roche remix)")
 
 		mainframe:AddItem(but)
 		function but.Paint()
@@ -764,7 +765,7 @@ end )
 		but:SetTextColor(black)
 		
 		function but.DoClick()
-sound.PlayURL ( "http://srv101.listentoyoutube.com/download/4pSTbHBjmWRqabWr2NmUaGqsmWZqZmlvmZebaLV80aWomKeM1bzSra2lypc=/Drake%20-%200%20to%20100%20%2F%20The%20Catch%20Up%20%28Explicit%29..mp3", "mono", function( station ) -- :O MUSIC STREAMING!!!!!!!!!!!!
+sound.PlayURL ( "http://stylgaming.com/gallery//vv%20brown%20-%20shark%20in%20the%20water%20(louis%20la%20roche%20remix).mp3", "mono", function( station ) -- :O MUSIC STREAMING!!!!!!!!!!!!
 	if ( IsValid( station ) ) then
 
 		station:SetPos( LocalPlayer():GetPos() )
